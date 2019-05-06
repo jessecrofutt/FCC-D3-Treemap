@@ -1,0 +1,80 @@
+
+
+html {
+  width: 100vw;
+  height: 100vh
+}
+
+body {
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1c1f23;
+  color: lightsteelblue;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+svg {
+  width: 100vw;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+  color: lightsteelblue;
+}
+
+h2 {
+  font-size: 14px;
+  color: lightsteelblue;
+  text-align: center;
+}
+
+#buttonBox {
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 2px;
+}
+
+#header {
+  background-color: #1c1f23;
+  color: lightsteelblue;
+}
+
+#legend {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+  color: black;
+  background-color: #1c1f23;
+}
+
+#source {
+  color: #060606;
+  text-align: center;
+}
+
+.buttons {
+  background-color: lightsteelblue;
+  color: #1c1f23;
+}
+
+.legend-labels {
+  margin: 5px 0 5px 0;
+  padding: 5px;
+}
+
+.tooltip {
+  border: 1px solid lightsteelblue;
+  border-radius: 5px;
+  padding: 5px;
+  width: 15vw;
+  color: lightsteelblue;
+  background-color: #1c1f23;
+  pointer-events:none;
+}
